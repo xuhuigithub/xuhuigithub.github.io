@@ -10,12 +10,12 @@ url: "https://xuhuigithub.github.io" # the base hostname & protocol for your sit
 # Author Settings
 author: Xuhui # add your name
 author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+about-author: 弱小和无知，不是生存的障碍，傲慢才是。 # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
+github: xuhuigithub # add your Github handle
 linkedin: # add your Linkedin handle
-email: 1498472791@qq.com# add your Email address
+email: 1498472791@qq.com # add your Email address
 
 # Disqus
 discus-identifier: # add your discus identifier
