@@ -7,11 +7,11 @@ img: i-rest.jpg # Add image post (optional)
 tags: [etcd, Kubernetes]
 ---
 ## 介绍：
-　　etcd组件作为一个高可用、强一致性的服务发现存储仓库，渐渐为开发人员所关注。在云计算时代，如何让服务快速透明地接入到计算集群中，如何让共享配置信息快速被集群中的所有机器发现，更为重要的是，如何构建这样一套高可用、安全、易于部署以及响应快速的服务集群，已经成为了迫切需要解决的问题。etcd为解决这类问题带来了福音。
-**A highly-available key value store for shared configuration**
-etcd在kubernetes集群中的作用
-　　Kubernetes中的大部分概念如Node、Pod、Replication Controller、Service等都可以看做一种“资源对象”，几乎所有的资源对象都可以在etcd库中持久化存储。
-　　Kubernetes的高度自动化功能也是通过跟踪对比etcd库里保存的“资源期望状态”与当前环境的“实际资源状态”的差异来实现的。
+  　　etcd组件作为一个高可用、强一致性的服务发现存储仓库，渐渐为开发人员所关注。在云计算时代，如何让服务快速透明地接入到计算集群中，如何让共享配置信息快速被集群中的所有机器发现，更为重要的是，如何构建这样一套高可用、安全、易于部署以及响应快速的服务集群，已经成为了迫切需要解决的问题。etcd为解决这类问题带来了福音。  
+  **A highly-available key value store for shared configuration**  
+  etcd在kubernetes集群中的作用：  
+> Kubernetes中的大部分概念如Node、Pod、Replication Controller、Service等都可以看做一种“资源对象”，几乎所有的资源对象都可以在etcd库中持久化存储。
+> Kubernetes的高度自动化功能也是通过跟踪对比etcd库里保存的“资源期望状态”与当前环境的“实际资源状态”的差异来实现的。
 ## 环境
 - CentOS Linux release 7.3.1611 (Core) 三台 
 - kernel 3.10.0-514.16.1.el7.x86_64 
