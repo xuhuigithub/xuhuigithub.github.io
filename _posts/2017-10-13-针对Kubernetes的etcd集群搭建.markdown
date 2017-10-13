@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 针对Kubernetes的etcd集群搭建-标题title
+title: 针对Kubernetes的etcd集群搭建
 date: 2017-10-13 12:53:20 +0800
-description: 针对于Kubernetes的etcd集群搭建方法-description
+description: Kubernetes的etcd集群搭建方法-
 img: i-rest.jpg # Add image post (optional)
 tags: [etcd, Kubernetes]
 ---
